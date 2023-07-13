@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+</head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+
+<header class="header">
+    <h1 style="text-align: center;" style="color: #0E0E11">Konfiguration der LED Lampe </h1>
+</header>
+
+<body class="body" background="Bilder/Background.png" style="auto">
+    <div>
+        <!-- <div class="Box">
+        <img src="Bilder/Blaue LED.png" alt="Bildtext" class="LED">
+        <img src="Bilder/Weiße LED.png" alt="Bildtext" class="LED">
+        <img src="Bilder/Blaue LED.png" alt="Bildtext" class="LED">
+        <img src="Bilder/Weiße LED.png" alt="Bildtext" class="LED">
+        <img src="Bilder/Blaue LED.png" alt="Bildtext" class="LED">
+        <img src="Bilder/Weiße LED.png" alt="Bildtext" class="LED">
+
+        <input type="range" min="0" max="100" value="50" class="slider_blau" id="slider1">
+        <input type="range" min="0" max="100" value="50" class="slider_weiß" id="slider2">
+        <input type="range" min="0" max="100" value="50" class="slider_blau" id="slider3">
+        <input type="range" min="0" max="100" value="50" class="slider_weiß" id="slider4">
+        <input type="range" min="0" max="100" value="50" class="slider_blau" id="slider5">
+        <input type="range" min="0" max="100" value="50" class="slider_weiß" id="slider6">
+    </div> -->
+
+        <!--     <input type="text" id="input">
+    <button id="btn" onclick="getValue()">Click me!</button> -->
+
+        <div style="text-align: center;">
+            <div id="baseDiv">Voreinstellungen</div>
+            <div id="popUpDiv">
+                <select id="popupSelect">
+                    <option value="Null">1. Aus</option>
+                    <option value="Eins">2. Alle</option>
+                    <option value="Zwei">3. Weiß</option>
+                    <option value="Drei">4. Blau</option>
+                    <option value="Vier">5. Blinken</option>
+                    <option value="Fünf">6. Versetzes Blinken</option>
+                    <option value="Sechs">7. Versetzes Vor-Zurück-Blinken</option>
+                    <option value="Sieben">8. Langsames Lauflicht</option>
+                    <option value="Acht">9. Dimmendes Licht</option>
+                </select>
+                <button id="btn" onclick="submit()" style="background-color: #007fc3;" class="submit">Bestätigen</button>
+            </div>
+        </div>
+
+
+
+        <div style="text-align: center;">
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Blaue LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider1()" min="0" max="100" value="50" id="slider1">
+                <p style="color:  blue;"><b><span id="value1">50</span>%</b></p>
+            </div>
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Weiße LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider2()" min="0" max="100" value="50" id="slider2">
+                <p style="color:  blue;"><b><span id="value2">50</span>%</b></p>
+            </div>
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Blaue LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider3()" min="0" max="100" value="50" id="slider3">
+                <p style="color:  blue;"><b><span id="value3">50</span>%</b></p>
+            </div>
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Weiße LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider4()" min="0" max="100" value="50" id="slider4">
+                <p style="color:  blue;"><b><span id="value4">50</span>%</b></p>
+            </div>
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Blaue LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider5()" min="0" max="100" value="50" id="slider5">
+                <p style="color:  blue;"><b><span id="value5">50</span>%</b></p>
+            </div>
+
+            <div class="Box" style="background-color: aquamarine;">
+                <img src="Bilder/Weiße LED.png" alt="Bildtext" class="boxTest">
+                <br>
+                <input type="range" oninput="slider6()" min="0" max="100" value="50" id="slider6">
+                <p style="color:  blue;"><b><span id="value6">50</span>%</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="dimmKnopf" style="text-align: center;">
+        <button onclick="dimmung()" style="text-align: center" class="ledsdimmen">Die LEDs dimmen</button>
+        <button onclick="reset()" class="reset">Reset</button>
+    </div>
+
+
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>

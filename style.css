@@ -1,0 +1,140 @@
+.h1 {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-size: cover;
+}
+
+
+
+.submit {
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #007fc3;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.submit:hover {
+    background-color: #6E7A82
+}
+
+.submit:active {
+    background-color: #6E7A82;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.boxTest {
+    width: 200px;
+    height: 200px;
+    pointer-events: none;
+}
+
+.Box {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+    width: 250px;
+    height: 275px;
+    text-align: center;
+    margin: 27px;
+    float: left;
+}
+
+.popUpDiv {
+    z-index: 100;
+    position: absolute;
+    background-color: rgba(123, 123, 123, 0.8);
+    display: none;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+}
+
+.popupSelect {
+    z-index: 1000;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+
+.ledsdimmen {
+    width: 400px;
+    height: 200px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #F39200;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.ledsdimmen:hover {
+    background-color: #6E7A82
+}
+
+.ledsdimmen:active {
+    background-color: #6E7A82;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+
+.reset {
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.reset:hover {
+    background-color: #6E7A82
+}
+
+.reset:active {
+    background-color: #6E7A82;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
